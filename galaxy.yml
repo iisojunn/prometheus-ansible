@@ -1,13 +1,13 @@
 ---
-namespace: prometheus
+namespace: iisojunn
 name: prometheus
-version: 0.4.0
+version: 0.4.0-m
 readme: README.md
 authors:
   - "Ben Kochie (https://github.com/SuperQ)"
   - "Garðar Arnarsson (https://github.com/gardar)"
   - "Paweł Krupa (https://github.com/paulfantom)"
-description: "Ansible Collection for Prometheus"
+description: "Ansible Collection for Prometheus - custom fork"
 license_file: LICENSE
 tags:
   - observability
@@ -20,7 +20,7 @@ tags:
   - cloud
 dependencies:
   community.general: '>=1.0.0'
-repository: "https://github.com/prometheus-community/ansible"
+repository: "https://github.com/iisojunn/prometheus-ansible"
 documentation: "https://github.com/prometheus-community/ansible/blob/main/docs"
 homepage: "https://prometheus.io"
 issues: "https://github.com/prometheus-community/ansible/issues"
